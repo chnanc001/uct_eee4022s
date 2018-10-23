@@ -23,14 +23,14 @@ Camera Calibration:
 # Useful files in this repo:
 
 /2D_Evaluation -> for evaluation of trained networks
-    - /Hand_Annotate -> contains hand annotated labeles from 5 different markers
-    - determineVariation.py.py -> used to calculate the average distance between same points for different markers, for determining acceptable error range for estimation network
+    /Hand_Annotate -> contains hand annotated labeles from 5 different markers
+    determineVariation.py.py -> used to calculate the average distance between same points for different markers, for determining acceptable error range for estimation network
 
-    - /Ground_Truth_Data -> contains Analysis Data set (as described in paper) with correct hand-annotated marker locations
-    - /Network_Data -> contains marker locations estimated by the 5 different networks produced from this study for the Analysis Data set
-    - NetworkAccuracy.py -> script for determining the accuracy of each network, saves raw distances and determines the average, variance and standard deviation
+   /Ground_Truth_Data -> contains Analysis Data set (as described in paper) with correct hand-annotated marker locations
+   /Network_Data -> contains marker locations estimated by the 5 different networks produced from this study for the Analysis Data set
+   NetworkAccuracy.py -> script for determining the accuracy of each network, saves raw distances and determines the average, variance and standard deviation
     
-    - plotPoints.py -> used to visaulise marker labels
+   plotPoints.py -> used to visaulise marker labels
     
 /3D_Evaluation -> generating and evaluating 3D estimator
     -
