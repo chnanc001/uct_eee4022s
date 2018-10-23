@@ -6,11 +6,11 @@ This repo is a coproduct of the final year (BSc Eng Mechatronics) project conduc
 ## Workflow followed for this final year project:
 
 **Camera Calibration:**
-    Intrinsic:
-    Use [OCamCalib toolbox](https://github.com/urbste/ImprovedOcamCalib) to calibrate the fisheye model camera
+   
+   Intrinsic: Use [OCamCalib toolbox](https://github.com/urbste/ImprovedOcamCalib) to calibrate the fisheye model camera
 
    Extrinsic:
-   Determine checkerboard/wand points and undistort data using parameters found in the previous step
+   Determine checkerboard/wand points and undistort data using parameters found in the previous step.  
    Using [EasyWand](http://biomech.web.unc.edu/wand-calibration-tools/) determine the extrinsic parameters.  Manually optimise for both wand score and reprojection error.
 
 **2D estimator:**
