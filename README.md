@@ -1,6 +1,6 @@
 # Using DeepLabCut for 3D pose estimation in cheetahs 
 
-This repo is forked from @chanc001. This repo is a co-product of the final year (BSc Eng Mechatronics) project conducted by An Chi Chen at the University of Cape Town. Her masters thesis included using [DeepLabCut](https://github.com/AlexEMG/DeepLabCut) for pose estimation in cheetahs, and is included in the following publication: 
+This repo demonstrates how to use DeepLabCut for 3D estimation in cheetahs. It is forked from [An Chi Chen](https://github.com/chnanc001). This repo is a co-product of the final year (BSc Eng Mechatronics) project conducted by An Chi Chen at the University of Cape Town. Her masters thesis included using [DeepLabCut](https://github.com/AlexEMG/DeepLabCut) for pose estimation in cheetahs, and is included in the following publication: 
 
 [Using DeepLabCut for 3D markerless pose estimation across species and behaviors](https://www.biorxiv.org/content/10.1101/476531v1)
 
@@ -50,4 +50,23 @@ more information: http://www.mousemotorlab.org/deeplabcut
   - plot3D -> uses 3D points obtained from dlt_reconstuct.py to plot 3D cheetah skeleton
     
   - examples of outputs from dlt_reconstruct.py and limblength.py can be found in \CetaneSept23 and \ZorroSept23
+  
+  
+## Pre-print:
+
+    @article {NathMathis2018,
+        author = {Nath*, Tanmay and Mathis*, Alexander and Chen, An Chi and Patel, Amir and Bethge, Matthias and Mathis, Mackenzie W},
+        title = {Using DeepLabCut for 3D markerless pose estimation across species and behaviors},
+        year = {2018},
+        doi = {10.1101/476531},
+        publisher = {Cold Spring Harbor Laboratory},
+        URL = {https://www.biorxiv.org/content/early/2018/11/24/476531},
+        eprint = {https://www.biorxiv.org/content/early/2018/11/24/476531.full.pdf},
+        journal = {bioRxiv}
+    }
+
+
+## License (DEEPLABCUT):
+
+This project is licensed under the GNU Lesser General Public License v3.0. Note that the software is provided "as is", without warranty of any kind, express or implied. If you use this code, please [cite us!](https://www.nature.com/articles/s41593-018-0209-y).
  
