@@ -1,9 +1,20 @@
-# uct_eee4022s
-3D Markerless Body Motion Capture for the Cheetah
+# Using DeepLabCut for 3D pose estimation in cheetahs 
 
-This repo is a coproduct of the final year (BSc Eng Mechatronics) project conducted by An Chi Chen at the University of Cape Town. 
+This repo is forked from @chanc001. This repo is a co-product of the final year (BSc Eng Mechatronics) project conducted by An Chi Chen at the University of Cape Town. Her masters thesis included using [DeepLabCut](https://github.com/AlexEMG/DeepLabCut) for pose estimation in cheetahs, and is included in the following publication: 
 
-## Workflow followed for this final year project:
+[Using DeepLabCut for 3D markerless pose estimation across species and behaviors](https://www.biorxiv.org/content/10.1101/476531v1)
+
+Tanmay Nath*, Alexander Mathis*, An Chi Chen, Amir Patel, Matthias Bethge, Mackenzie W. Mathis
+
+more information: http://www.mousemotorlab.org/deeplabcut
+
+<p align="center">
+<img src="https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5c3fc1c6758d46950ce7eec7/1547682383595/cheetah.png?format=750w" width="50%">
+</p>
+
+
+
+## Workflow:
 
 **Camera Calibration:**
    
